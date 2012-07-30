@@ -11,7 +11,13 @@ My personal TF2 configs. Think of them like dotfiles, but for Team Fortress 2.
 **Fullscreen:** `-dxlevel 98 -full -w WIDTH -h HEIGHT -console -novid -useforcedmparms -noforcemaccel -noforcemspd`
 **Windowed:**   `-dxlevel 98 -sw -w WIDTH -h HEIGHT -console -noborder -novid -useforcedmparms -noforcemaccel -noforcemspd`
 
-I personally play Windowed, but with full resolution (so it looks fullscreen, but it's easier to ALT+TAB out of the game). I've heard that this actually degrades performance, but my gaming rig easily makes this hit negligible.
+I personally play windowed, but with full resolution (so it looks fullscreen, but it's easier to `ALT+TAB` out of the game). Aero will mess up your FPS if you do this, so it's [recommended][1] to have Windows automatically disable Aero while playing Team Fortress 2:
+
+  1. Navigate to `C:\Program Files (x86)\Steam\steamapps\STEAMUSERNAME\team fortress 2` and find `hl2.exe`
+  2. Right click on it and go to "Properties"
+  3. Under the "Compatibility" tab, select "Disable desktop composition"
+
+The [reason][2] behind disabling Aero is so you're not rendering desktop composition and TF2 at the same time. So if you don't disable desktop composition, running in fullscreen would perform better. But if you do, the performance is the same, but in windowed mode you don't have to wait when `ALT+TAB`-ing.
 
 So, for my 1920x1080 monitor, my launch options are:
 
@@ -62,6 +68,9 @@ cl_updaterate 40
 rate 35000
 ```
 
+
+   [1]: http://www.reddit.com/r/tf2/comments/jzya2/windowed_noborder_and_auto_off_aero_tf2_bliss/
+   [2]: http://www.reddit.com/r/tf2/comments/jzya2/windowed_noborder_and_auto_off_aero_tf2_bliss/c2ghtzh
    [20120902]: http://wiki.teamfortress.com/wiki/September_2,_2011_Patch
    [Cow Mangler 5000]: http://wiki.teamfortress.com/wiki/Cow_Mangler_5000
    [highquality]: https://github.com/cdown/tf2configs/blob/d56c3754210d9983876f364382d118b7bca93336/highquality
