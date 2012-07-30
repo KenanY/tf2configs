@@ -37,8 +37,8 @@ So, for my 1920x1080 monitor, my launch options are:
 ### Launch options explained
 
   - `-dxlevel <level>` - Forces a specific DirectX version when launching TF2. This is useful if your graphics hardware is older, and gets significantly better performance in an earlier version of DirectX.
-  - `-w <width>` - Forces the engine to start with resolution set to <width>.
-  - `-h <height>` - Forces the engine to start with resolution set to <height>.
+  - `-w <width>` - Forces the engine to start with resolution set to `<width>`.
+  - `-h <height>` - Forces the engine to start with resolution set to `<height>`.
   - `-console` - Starts TF2 with the developer console enabled.
   - `-novid` - When loading TF2 with this parameter, the intro Valve video will not play.
 
