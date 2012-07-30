@@ -2,9 +2,20 @@
 
 My personal TF2 configs. Think of them like dotfiles, but for Team Fortress 2.
 
+I play for recreational fun. Not competitively. If you're some professional TF2 player, some of these configs might not be for you.
+
 `C:\Program Files (x86)\Steam\steamapps\STEAMUSERNAME\team fortress 2\tf\cfg`
 
 ## Launch options
+
+### How to set launch options
+
+  1. Right-click TF2 under the "Library" in Steam and select "Properties".
+  2. Under the "General" tab click the "Set launch options..." button.
+  3. Enter the launch options you wish to apply and click "OK".
+  4. Close the game's "Properties" window and launch the game.
+
+### Fullscreen, or windowed?
 
 **Remove `-dxlevel 98` from the launch options after the first launch!**
 
@@ -22,6 +33,14 @@ The [reason][2] behind disabling Aero is so you're not rendering desktop composi
 So, for my 1920x1080 monitor, my launch options are:
 
 `-sw -w 1920 -h 1080 -console -noborder -novid -useforcedmparms -noforcemaccel -noforcemspd`
+
+### Launch options explained
+
+  - `-dxlevel <level>` - Forces a specific DirectX version when launching TF2. This is useful if your graphics hardware is older, and gets significantly better performance in an earlier version of DirectX.
+  - `-w <width>` - Forces the engine to start with resolution set to <width>.
+  - `-h <height>` - Forces the engine to start with resolution set to <height>.
+  - `-console` - Starts TF2 with the developer console enabled.
+  - `-novid` - When loading TF2 with this parameter, the intro Valve video will not play.
 
 ## Details
 
