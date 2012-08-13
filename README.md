@@ -2,7 +2,7 @@
 
 My personal TF2 configs. Think of them like dotfiles, but for Team Fortress 2.
 
-I play for recreational fun. Not competitively. If you're some professional TF2 player, some of these configs might not be for you.
+I play for recreational fun, not competitively. If you're some professional TF2 player, some of these configs might not be for you.
 
 `C:\Program Files (x86)\Steam\steamapps\STEAMUSERNAME\team fortress 2\tf\cfg`
 
@@ -54,7 +54,7 @@ For executing user scripts on launch.
 
 ### binds.cfg
 
-My custom TF2 key binds. This is an important file to go through and edit to your preferences. I bind a lot of default stuff because Team Fortress seems to wipe my all movement binds unless I state them here.
+My custom TF2 key binds. This is an important file to go through and edit to your preferences. I bind a lot of default stuff because Team Fortress seems to wipe all my movement binds unless I state them here.
 
   - `c` — my primary key for ducking/crouching.
   - `k` — rolls the dice. If you don't know what this means, you likely don't go on server that have Roll the Dice.
@@ -63,8 +63,8 @@ My custom TF2 key binds. This is an important file to go through and edit to you
 
 In these files, you can specify specific binds for each class. There's a ton of possibilities, but I don't use any. Here are some you might like to use (but I give a reason why I don't):
 
-  - `bind "mouse2" "+jump;+duck;+attack"` — If this is enabled, secondary attack will be `+jump;+duck;+attack` when you are playing Soldier. This allows easier rocket jumping, but then **you can't charge the [Cow Mangler 5000].**
-  - `alias fakeuber "voicemenu 1 7;say_team "*** FAKED CHARGE ***""` — Fakes Ubercharges. This is for competitive players, not recreational people like me.
+  - `bind "mouse2" "+jump;+duck;+attack"` — If you put this in your `soldier.cfg`, secondary attack will be `+jump;+duck;+attack` when you are playing Soldier. This allows easier rocket jumping, but **prevents you from charging the [Cow Mangler 5000].**
+  - `alias fakeuber "voicemenu 1 7;say_team "*** FAKED CHARGE ***""` — Fakes Ubercharges to trick the enemy team into not pushing forward.. This is for competitive players, not recreational people like me.
 
 ### gfx.cfg
 
@@ -72,9 +72,9 @@ I'm using [Chris' highquality config][highquality]. My computer could probably h
 
   - FPS cap is commented out due to jittering cause by the [September 2, 2011 patch][20120902].
 
-I'm using _Bad connection_ settings because my ping has been suffering recently.
+I'm using _bad connection_ settings because my ping has been suffering recently.
 
-```
+``` cfg
 // Bad connection
 cl_cmdrate 40
 cl_interp 0
